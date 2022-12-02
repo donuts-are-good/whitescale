@@ -1,0 +1,42 @@
+{
+	"name": "whitescale",
+	"displayName": "whitescale",
+	"description": "A bright white theme to burn your retinas.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/donuts-are-good/whitescale"
+	},
+	"scripts": {
+		"build:dev": "vsce package",
+		"publish": "vsce publish"
+	},
+	"icon": "images/icon.png",
+	"publisher": "donuts-are-good",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "whitescale",
+				"uiTheme": "vs",
+				"path": "./themes/whitescale.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "",
+		"publisherId": "",
+		"publisherDisplayName": "donuts-are-good",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1663132580433
+	}
+}
