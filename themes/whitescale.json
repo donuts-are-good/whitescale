@@ -989,7 +989,7 @@
       "name": "illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
@@ -1003,21 +1003,21 @@
       "name": "Broken",
       "scope": "invalid.broken",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
       "name": "Deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
       "name": "Unimplemented",
       "scope": "invalid.unimplemented",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
@@ -1742,7 +1742,7 @@
         "constant.other.color.rgb-value.xi"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
@@ -1845,7 +1845,7 @@
     }
   ],
   "colors": {
-    "foreground": "#ffffff",
+    "foreground": "#000000",
     "focusBorder": "#ffffff",
     "selection.background": "#e8e8e8",
     "scrollbar.shadow": "#ffffff",
@@ -2098,8 +2098,14 @@
     "editorGroup.emptyBackground": "#ffffff",
     "panelSection.border": "#000000",
     "statusBarItem.activeBackground": "#FFFFFF25",
-    "settings.headerForeground": "#00000000",
-    "settings.focusedRowBackground": "#cccccccc",
+    "settings.headerForeground": "#000000",
+    "settings.focusForeground": "#000000",
+    "settings.lineForeground": "#000000",
+    "settings.fileForeground": "#000000",
+    "settings.activeForeground": "#000000",
+    "settings.focusedRowBackground": "#ffffff",
+    "settings.focusedRowForeground": "#000000",
+    "settings.foreground": "#000000",
     "walkThrough.embeddedEditorBackground": "#00000050",
     "breadcrumb.activeSelectionForeground": "#000000",
     "editorGutter.commentRangeForeground": "#424242",
